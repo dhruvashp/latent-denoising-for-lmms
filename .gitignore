@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# Logs / runs
+*.log
+*.log.*
+wandb/
+output/
+runs/
+checkpoints/
+ckpts*/
+
+# Data / artifacts
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.h5
+*.parquet
+*.arrow
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Secrets / env
+.env
+.env.*
+*.key
+*-key
+secrets/
+**/wandb-key
+
+# Eval / analysis (kept out of public repo)
+eval_results/
+feature_analysis/
+notebooks/
+analysis/
+*.pdf
