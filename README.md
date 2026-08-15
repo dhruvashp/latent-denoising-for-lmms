@@ -14,8 +14,6 @@ The same recipe is implemented for three backbones:
 | LLaVA + SigLIP        | SigLIP-SO400M-patch14-384| Vicuna-7B-v1.5 | Pretrain + tune    |
 | Qwen2.5-VL-7B         | Qwen ViT (built-in)      | Qwen-7B        | Post-tuning        |
 
-This repo contains code only — no checkpoints, no datasets, no evaluation
-result tables. See "Datasets" below for download pointers.
 
 ---
 
